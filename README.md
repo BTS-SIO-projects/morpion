@@ -17,7 +17,16 @@ Morpion est un jeu développé en Java avec la bibliothèque Swing, réalisé pa
 - **Interface graphique** : Swing  
 
 ## 📂 Structure du projet
-Morpion/ │── src/ │ ├── gui/ # Interfaces graphiques (Swing) │ ├── logic/ # Gestion du jeu (mouvements, IA, victoire) │ ├── models/ # Structures de données (grille, joueurs) │── lib/ # Bibliothèques externes (si nécessaire) │── README.md # Documentation │── Morpion.jar # Version exécutable
+```
+Morpion/  
+│── src/  
+│   ├── gui/        # Interfaces graphiques (Swing)  
+│   ├── logic/      # Gestion du jeu (mouvements, IA, victoire)  
+│   ├── models/     # Structures de données (grille, joueurs)  
+│── lib/            # Bibliothèques externes (si nécessaire)  
+│── README.txt      # Documentation  
+│── Morpion.jar     # Version exécutable  
+```
 
 ## 🔧 Installation et exécution
 
@@ -27,8 +36,10 @@ Morpion/ │── src/ │ ├── gui/ # Interfaces graphiques (Swing) │ �
 
 ### 🛠️ 2. Installation
 Cloner le projet depuis GitHub :  
+```sh
 git clone https://github.com/BTS-SIO-projects/Morpion.git
 cd Morpion
+```
 
 Importer le projet dans Eclipse :
 
@@ -38,8 +49,10 @@ Sélectionner le dossier du projet et valider
 ▶️ 3. Exécution
 Lancer la classe principale Main.java
 Ou exécuter la version .jar avec :
-
+```sh
 java -jar Morpion.jar
+```
+
 🤖 Mode Joueur vs Ordinateur
 L’IA suit une logique simple basée sur des choix aléatoires et des blocages de coups gagnants. Une future amélioration pourrait intégrer l’algorithme Minimax pour un défi plus relevé.
 
